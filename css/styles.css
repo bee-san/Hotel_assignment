@@ -1,8 +1,15 @@
 body {
-    background-color: #e0d8d6;
+    background-color: #252e34;
+    color: #252e34;
+    font-family: 'Raleway', sans-serif;
 }
 @font-face {
     font-family: 'Raleway', sans-serif;
+}
+
+#main {
+    background-color: #e0d8d6;
+    border: 2px solid black;
 }
 
 /*Navbar settings change for bootstrap. applies my custom colours to navbar */
@@ -15,7 +22,7 @@ body {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #f1cb44;
+  color: black;
 }
 .navbar-default .navbar-text {
   color: #252e34;
@@ -36,7 +43,7 @@ body {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #f1cb44;
+  color: black;
   background-color: #252e34;
 }
 .navbar-default .navbar-toggle {
@@ -57,7 +64,7 @@ body {
   color: #252e34;
 }
 .navbar-default .navbar-link:hover {
-  color: #f1cb44;
+  color: black;
 }
 
 @media (max-width: 767px) {
