@@ -1,11 +1,11 @@
 // Docs at http://simpleweatherjs.com
 $(document).ready(function() {
   $.simpleWeather({
-    location: 'London',
+    location: 'Austin, TX',
     woeid: '',
-    unit: 'c',
+    unit: 'f',
     success: function(weather) {
-      html = '<p>'+weather.temp+'&deg;'+weather.units.temp+' In London'+'</p>';
+      html = '<p>'+weather.temp+'&deg;'+weather.units.temp+'</p>';
 
       $("#weather").html(html);
     },
