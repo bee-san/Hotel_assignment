@@ -12,9 +12,17 @@ body {
     border: 2px solid black;
 }
 
-.item {
-    padding-left: 2px;
-    padding-right: 2px;
+@media (min-width: 992px) {
+  ul.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+
+  }
+}
+
+.nav-item {
+    font-size: 2em;
 }
 
 
